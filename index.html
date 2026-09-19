@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tears of Selûne</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="space-backdrop" aria-hidden="true">
+      <div class="planet planet-selune">
+        <img src="assets/selune.svg" alt="Selune" />
+      </div>
+      <div class="planet planet-toril">
+        <img src="assets/toril.svg" alt="Toril" />
+      </div>
+    </div>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Region Map: Realmspace</p>
+          <h1>Tears of Selûne</h1>
+        </div>
+
+        <div class="location-card" aria-label="Current location: Planet Toril, Moon Selûne">
+          <div class="location-row">
+            <img class="location-image location-image-toril" src="assets/toril.svg" alt="Toril" />
+            <p>Planet: Toril</p>
+          </div>
+          <div class="location-row">
+            <img class="location-image location-image-selune" src="assets/selune.svg" alt="Selûne" />
+            <p>Moon: Selûne</p>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <button id="ruler-toggle" class="ruler-toggle" type="button" aria-pressed="false">Ruler</button>
+          <button id="move-toggle" class="move-toggle" type="button" aria-pressed="false">Begin move</button>
+          <button id="engage-toggle" class="engage-toggle" type="button" disabled>Engage</button>
+          <div class="legend">
+            <span class="legend-swatch inactive"></span> Unscanned
+            <span class="legend-swatch active"></span> Unfriendly location
+            <span class="legend-swatch friendly"></span> Friendly location
+          </div>
+          <!-- <button id="export-pdf" class="export-button" type="button">Export PDF</button> -->
+        </div>
+      </header>
+
+      <main class="map-panel">
+        <div id="ruler-status" class="ruler-status" aria-live="polite">
+          <span id="ruler-message">Ruler off: toggle it on to measure distance</span>
+          <span id="current-location" class="current-location"></span>
+          <span id="move-counter" class="move-counter"></span>
+        </div>
+        <div id="dice-result" class="dice-result" aria-live="polite"></div>
+        <div id="encounter-alert" class="encounter-alert" aria-live="assertive">
+          <span>Random encounter!</span>
+          <button id="encounter-close" class="encounter-close" type="button" aria-label="Close random encounter alert">&times;</button>
+        </div>
+        <svg id="hex-map" viewBox="0 0 1500 1050" aria-label="Asteroid cluster map"></svg>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

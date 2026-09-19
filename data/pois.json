@@ -1,0 +1,17 @@
+[
+  { "id": "cinder-forge", "row": 4, "col": 8, "icon": "⚒️", "title": "Cinder Forge" },
+  { "id": "shard-reef", "row": 7, "col": 12, "icon": "🪨", "title": "Shard Reef" },
+  { "id": "glimmer-gate", "row": 9, "col": 19, "icon": "🌀", "title": "Glimmer Gate" },
+  { "id": "salt-bay", "row": 13, "col": 6, "icon": "🌊", "title": "Salt Bay" },
+  { "id": "relay-crown", "row": 15, "col": 23, "icon": "📡", "title": "Relay Crown" },
+  { "id": "ember-lab", "row": 19, "col": 11, "icon": "🧪", "title": "Ember Lab" },
+  { "id": "void-market", "row": 22, "col": 17, "icon": "💰", "title": "Void Market" },
+  { "id": "storm-mine", "row": 25, "col": 9, "icon": "⛏️", "title": "Storm Mine" },
+  { "id": "broken-sun", "row": 24, "col": 25, "icon": "☄️", "title": "Broken Sun" },
+  { "id": "stardock", "row": 9, "col": 24, "icon": "🛡️", "title": "Stardock", "type": "friendly-base" },
+  { "id": "dragon-rock", "row": 16, "col": 27, "icon": "⚓", "title": "Dragon Rock", "type": "friendly-base" },
+  { "id": "kapri-station", "row": 13, "col": 22, "icon": "🛰️", "title": "Kapri Station", "type": "friendly-base" },
+  { "id": "the-citadel", "row": 20, "col": 6, "icon": "🧱", "title": "The Citadel", "type": "friendly-base" },
+  { "id": "whitestone", "row": 4, "col": 12, "icon": "🧱", "title": "Whitestone", "type": "friendly-base" },
+  { "id": "starcastle", "row": 15, "col": 15, "icon": "🏰", "title": "Star Sepulchre", "type": "" }
+]

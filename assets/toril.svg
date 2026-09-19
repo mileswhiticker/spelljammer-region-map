@@ -1,0 +1,27 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="torilBg" x1="140" y1="100" x2="700" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3ED4FF"/>
+      <stop offset="0.45" stop-color="#2285D8"/>
+      <stop offset="1" stop-color="#0B2348"/>
+    </linearGradient>
+    <radialGradient id="torilGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(275 250) rotate(45) scale(420 420)">
+      <stop stop-color="#AEE7FF" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#5DD4FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#052E4D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="400" cy="400" r="320" fill="url(#torilBg)"/>
+  <circle cx="400" cy="400" r="320" fill="url(#torilGlow)"/>
+  <ellipse cx="370" cy="330" rx="180" ry="120" fill="#7AD9A4" fill-opacity="0.75"/>
+  <ellipse cx="510" cy="440" rx="155" ry="105" fill="#4BC0A4" fill-opacity="0.8"/>
+  <ellipse cx="280" cy="500" rx="150" ry="110" fill="#2C8A73" fill-opacity="0.8"/>
+  <path d="M195 300C250 265 300 250 350 270C400 290 425 280 465 245C505 210 600 220 630 265C660 310 635 370 600 405C555 450 510 470 420 495C330 520 245 510 205 470C150 420 140 340 195 300Z" fill="#D7F3C0" fill-opacity="0.5"/>
+  <path d="M230 610C280 575 315 560 360 580C400 600 445 590 485 550C530 510 570 510 620 560C655 595 660 640 625 670C590 700 510 710 435 705C375 700 305 690 260 670C220 650 200 635 230 610Z" fill="#B7E8C7" fill-opacity="0.45"/>
+  <circle cx="320" cy="280" r="18" fill="#E2FEFF" fill-opacity="0.6"/>
+  <circle cx="570" cy="246" r="22" fill="#E2FEFF" fill-opacity="0.5"/>
+  <circle cx="440" cy="650" r="14" fill="#E2FEFF" fill-opacity="0.5"/>
+  <circle cx="640" cy="420" r="10" fill="#E2FEFF" fill-opacity="0.5"/>
+  <path d="M78 718C150 650 190 622 255 598" stroke="#DDF4FF" stroke-opacity="0.32" stroke-width="10" stroke-linecap="round"/>
+  <path d="M540 110C610 145 650 170 720 220" stroke="#DDF4FF" stroke-opacity="0.22" stroke-width="8" stroke-linecap="round"/>
+</svg>
